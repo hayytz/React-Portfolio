@@ -1,0 +1,45 @@
+.bout-title-2 {
+  -webkit-text-stroke: .5px rgba(255, 183, 144, 0.316);
+  color: transparent; 
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -.06rem;
+    text-align: center;
+  }
+  
+  .bout-span-2 {
+    font-weight: 700;
+    position: relative;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    display: block;
+    line-height: 1.1;
+    letter-spacing: -0.01rem;
+  }
+  
+  .bout-span-2::before {
+    background: linear-gradient(90deg, var(--start-color), var(--end-color));
+    content: var(--content-2);
+    position: absolute;
+    inset: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated-2 9s infinite;
+    animation-delay: var(--delay-2);
+    font-family: "Inter", sans-serif;
+  }
+  
+  @keyframes animated-2 {
+  
+    0%,
+    16.667%,
+    100% {
+      opacity: 1;
+    }
+  
+    33.333%,
+    83.333% {
+      opacity: 0;
+    }
+  }
+  

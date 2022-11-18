@@ -1,0 +1,60 @@
+.keyframe-rocket {
+    animation: rocket 2s infinite ease;
+}
+
+@keyframes rocket {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    0% {
+        transform: translateY(0);
+    }
+}
+
+.sidebar {
+    -webkit-animation: slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.keyframe-love{
+    animation: love 2s ease infinite;
+}
+
+@keyframes love {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    0% {
+        transform: scale(1);
+    }
+}
