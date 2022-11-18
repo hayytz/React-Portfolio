@@ -96,8 +96,8 @@ const Navbar = () => {
               <li
                 key={movilNav.id}
                 className="text-[#fff]
-                font-inter text-center text-[1.5rem]
-                hover:text-[#a8a8a8] trans mb-[1rem]"
+                font-inter text-center text-[1.3rem]
+                hover:text-[#a8a8a8] hover:line-through trans mb-[1rem]"
               >
                 <a href={movilNav.id}>{movilNav.title}</a>
               </li>
