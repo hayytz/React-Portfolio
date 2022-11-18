@@ -1,7 +1,7 @@
 
 const Button = () => {
   return (
-    <a href="">
+    <a href="#contact">
       <span className="button trans">
         <span className="button-background"></span>
         <span className="button-text trans hover:text-[#fff] text-[#000000] font-[500] 

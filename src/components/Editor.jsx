@@ -32,8 +32,9 @@ function Editor() {
 
 
   return (
-    <div className={`shadow-xl flex flex-col bg-[#171A1F] md:mb-[3rem]`}
-      ref={targetRef}>
+    <div ref={targetRef} className={`shadow-xl flex flex-col bg-[#171A1F] md:mb-[3rem]
+    overflow-hidden `}
+      >
       {/* Ventana de editor */}
       <div className="flex flex-row w-[100%] h-[30px] p-[.5rem]">
         <span className="w-[10px] h-[10px] bg-[#dadada]
