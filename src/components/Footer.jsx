@@ -7,8 +7,9 @@ function Footer() {
         className="
    border-t-[#4b6475] border-t-[1px]"
       >
-<div className="grid grid-cols-2 px-[3rem] py-[2rem] bg-[#0a0d11]">
-        <div>
+<div className="grid grid-cols-2 sss:grid-cols-1 sss:flex sss:flex-col
+ sss:justify-center sss:items-center px-[3rem] py-[2rem] bg-[#0a0d11]">
+        <div className="sss:mb-[1rem]">
           <small
             className="text-[#fff] 
         text-[.85rem] font-[500] font-inter"
