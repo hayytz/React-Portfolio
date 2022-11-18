@@ -27,6 +27,7 @@ module.exports = {
       'md': {'max': '960px'},
       'sm': {'max': '800px'},
       'ss': {'max': '610px'},
+      'sss': {'max': '500px'},
     },
   },
   plugins: [],
