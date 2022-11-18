@@ -242,7 +242,7 @@ const Contacto = () => {
                 <h1 className="bout-title-2">
                   <span
                     className='bout-span-2 [--content-2:"Dinámico"]
-          [--start-color:#ffcfc3] [--end-color:#F9BC2C]
+          [--start-color:#fff] [--end-color:#fff]
           [--delay-2:0s] uppercase'
                   >
                     Dinámico
@@ -250,7 +250,7 @@ const Contacto = () => {
 
                   <span
                     className='bout-span-2 [--content-2:"Eficiente"]
-          [--start-color:#ffcfc3] [--end-color:#F9BC2C]
+          [--start-color:#fff] [--end-color:#fff]
           [--delay-2:3.33s] uppercase'
                   >
                     Eficiente
@@ -258,7 +258,7 @@ const Contacto = () => {
 
                   <span
                     className='bout-span-2 [--content-2:"Rápido"]
-          [--end-color:#F9BC2C] [--start-color:#ffcfc3]
+          [--end-color:#fff] [--start-color:#fff]
           [--delay-2:6.66s] uppercase'
                   >
                     Rápido
