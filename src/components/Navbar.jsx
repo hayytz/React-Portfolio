@@ -64,7 +64,9 @@ const Navbar = () => {
                      p-[0px] mr-[15px] text-[.875rem] text-[#666]
                      font-[400] hover:text-[#fff] trans"
           >
-            <a href={secondNav.linkSite} target="_blank">{secondNav.title}</a>
+            <a href={secondNav.linkSite} target="_blank">
+              {secondNav.title}
+            </a>
           </li>
         ))}
         <DarkButton
@@ -86,18 +88,29 @@ const Navbar = () => {
         />
         <div
           className={`fixed ${toggle ? "flex" : "hidden"}
-        bg-[#000000d3] w-[100vw] h-[100vh] left-0 top-0 justify-center 
-        items-center sidebar `}
+        bg-[#000000d7] w-[100vw] h-[100vh] left-0 top-0 justify-center 
+        items-center sidebar`}
         >
-            <ul>
-              {navLinks.map((movilNav) => (
-                <li key={movilNav.id} className="text-[#fff]
-                font-inter text-center text-[1.5rem] py-[.5rem]
-                hover:text-[#a8a8a8] trans">
-                  <a href={movilNav.id} >{movilNav.title}</a>
-                </li>
-              ))}
-            </ul>
+          <ul>
+            {navLinks.map((movilNav) => (
+              <li
+                key={movilNav.id}
+                className="text-[#fff]
+                font-inter text-center text-[1.5rem]
+                hover:text-[#a8a8a8] trans mb-[1rem]"
+              >
+                <a href={movilNav.id}>{movilNav.title}</a>
+              </li>
+            ))}
+            <DarkButton
+              background={`
+             dark-button-bg-text
+          `}
+              borderHover={`
+                dark-button-hv
+              `}
+            />
+          </ul>
         </div>
       </div>
       {/* END Responsive menu */}
