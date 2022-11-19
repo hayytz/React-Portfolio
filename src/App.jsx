@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   Navbar,
   Hero,
@@ -11,8 +11,21 @@ import {
 import estilo from "./estilo-predeterminado";
 
 const App = () => {
+  const [loading, setLoading] = useState(false);
+  const spinner = document.getElementById("spinner");
+
+  useEffect(() =>{
+    window.onload = () =>{
+      setLoading(true)
+    }
+    if(!loading){
+      spinner.style.display="none";
+    }
+     
+  }, [loading])
+
   return (
-    <>
+      <>
       <Navbar />
       <div className={estilo.contenedorAncho}>
         <Hero />
@@ -28,7 +41,7 @@ const App = () => {
         </div>
       </div>
     </>
-  );
+    )
 };
 
 export default App;
