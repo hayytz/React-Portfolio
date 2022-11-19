@@ -13,7 +13,7 @@ const Hero = () => {
             text-[66px] font-[600] text-center leading-[1]
              text-[#fff]
             ">
-            FRONT END <br />
+            FRONT EN <br />
           </h1>
           <span className="text-[25px] self-center text-[#fff]">WEB DEVELOPER</span>
         </div>
