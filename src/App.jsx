@@ -14,18 +14,17 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const spinner = document.getElementById("spinner");
 
-  useEffect(() =>{
-    window.onload = () =>{
-      setLoading(true)
+  useEffect(() => {
+    window.onload = () => {
+      setLoading(true);
+    };
+    if (!loading) {
+      spinner.style.display = "none";
     }
-    if(!loading){
-      spinner.style.display="none";
-    }
-     
-  }, [loading])
+  }, [loading]);
 
   return (
-      <>
+    <>
       <Navbar />
       <div className={estilo.contenedorAncho}>
         <Hero />
@@ -34,14 +33,14 @@ const App = () => {
       <div className={estilo.flexCentrado}>
         <div className={estilo.contenedorAncho}>
           <About />
-          <Progreso />
+          <Progreso />1
           <Proyectos />
           <Contacto />
           <Footer />
         </div>
       </div>
     </>
-    )
+  );
 };
 
 export default App;

@@ -44,16 +44,27 @@ export const navSecondLinks = [
 export const projects = [
     {
         id: "proyecto-1",
+        contenido: "Prueba de manejo de layout. Uso de php y fetch para envío de formulario. Animaciones con gsap.",
+        titulo: "Ecology Web",
+        siteLink: "https://mapecology.000webhostapp.com/",
+        img: proyecto2,
+        alt: "Ecomap",
+        estado: "Finalizado",
+        icon: check,
+    },
+
+    {
+        id: "proyecto-2",
         contenido: "Layout de sitio web de moda y accesorios, no backend. Primer proyecto con finalidad de práctica.",
         titulo: "Fashion Web",
         siteLink: "https://webfashion.vercel.app/home.html",
         img: proyecto2,
-        alt: "Colegio iptce Blog de noticias",
+        alt: "Web de moda.",
         estado: "Finalizado",
         icon: check,
     },
     {
-        id: "proyecto-2",
+        id: "proyecto-3",
         contenido: "Sitio web dinámico creado con las principales tecnologías Html, CSS, JavaScript y php.",
         titulo: "Web escolar",
         siteLink: "https://www.colegioiptce.edu.gt/",
@@ -62,16 +73,7 @@ export const projects = [
         estado: "Finalizado",
         icon: check,
     },
-    // {
-    //     id: "proyecto-3",
-    //     contenido: "Blog y sistema de noticias con dashboard incluido, realizado con php y sql.",
-    //     titulo: "Blog noticias",
-    //     siteLink: "https://www.colegioiptce.edu.gt/blog/",
-    //     img: proyecto2,
-    //     alt: "Colegio iptce Blog de noticias",
-    //     estado: "Finalizado",
-    //     icon: check,
-    // },
+
     {
         id: "proyecto-4",
         contenido: "Utilización de Fake Store API para realizar un e-commerce con React.",

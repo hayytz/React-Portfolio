@@ -1,7 +1,8 @@
 import React from "react";
 import estilo from "../estilo-predeterminado";
 import Button from "./Button";
-import HeroScene from "./HeroScene";
+import Loader from "./Loader";
+import HeroScene from"./HeroScene";
 
 const Hero = () => {
   return (
@@ -29,7 +30,6 @@ const Hero = () => {
       </div>
     </section>
 
-    // </section>
   );
 };
 
