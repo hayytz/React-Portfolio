@@ -44,8 +44,8 @@ const About = () => {
       mb-[5rem] px-[2rem]"
       >
         <p className={`${estilo.parrafoMd} mt-[1.5rem]`}>
-          Actualmente con diecisiete años de edad y una trayectoria de ocho
-          meses de aprendizaje. Amante de la tecnología, con pasión hacia la
+          Actualmente con dieciocho años de edad y una trayectoria de un año
+          de aprendizaje. Amante de la tecnología, con pasión hacia la
           música y el arte. Guitarrista y lector de pasatiempo.
         </p>
       </div>
